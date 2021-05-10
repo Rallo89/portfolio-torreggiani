@@ -1017,7 +1017,13 @@ footer .social-links li:first-child { margin-left: 0; }
    margin-right: 15px;
 }
 .project-btn{
-   background-color: #1abc9c !important;
+   background-color: transparent !important;
+   border: 2px solid #fff;
+}
+.project-btn:hover, .project-btn:focus, .project-btn:active {
+   background-color: #fff !important;
+   border: 2px solid #fff !important; 
+   color: black;
 }
 .github-btn{
    background-color: #34495e !important;
