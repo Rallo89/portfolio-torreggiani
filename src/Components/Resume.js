@@ -23,7 +23,8 @@ class Resume extends Component {
             {education.degree} <span>&bull;</span>
             <em className="date">{education.graduated}</em>
           </p>
-          <p>{education.description}</p>
+          <p><b>Thesis:</b> {education.thesis}</p>
+          <p><b>Scope:</b> {education.scope}</p>
         </div>
       );
     });
@@ -56,6 +57,19 @@ class Resume extends Component {
 
     return (
       <section id="resume">
+
+        <Slide left duration={1300}>
+          <div className="row work">
+            <div className="three columns header-col">
+              <h1>
+                <span>Work</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col">{work}</div>
+          </div>
+        </Slide>
+
         <Slide left duration={1300}>
           <div className="row education">
             <div className="three columns header-col">
@@ -69,18 +83,6 @@ class Resume extends Component {
                 <div className="twelve columns">{education}</div>
               </div>
             </div>
-          </div>
-        </Slide>
-
-        <Slide left duration={1300}>
-          <div className="row work">
-            <div className="three columns header-col">
-              <h1>
-                <span>Work</span>
-              </h1>
-            </div>
-
-            <div className="nine columns main-col">{work}</div>
           </div>
         </Slide>
 

@@ -47,30 +47,50 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Università degli Studi di Modena e Reggio Emilia",
+        "degree":"Master's degree in Computer Engineering",
+        "graduated":"April 2016",
+        "thesis": "Distributed architecture for scalable management of unstructured time-indexed data",
+        "scope": "The thesis project required the execution of a project work lasting 6 months and 720 hours. Subject: The aim of the thesis's project is the creation of a distrubted architecture that can manage data in a scalable way and index them with temporal informations."
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Università degli Studi di Modena e Reggio Emilia",
+        "degree":"Bachelor's degree in Computer Engineering",
+        "graduated":"April 2013",
+        "thesis": "Kelindo – Unsupervised Music Tagger and Organizer",
+        "scope": "The thesis project required the execution of a project work lasting 4 months. Subject: The aim of the thesis's project is the development of an application that can organize a disordered music library."
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Accenture Strategy & Consulting",
+        "title":"Technology Advisory Consultant",
+        "years":"April 2019 - Present",
+        "description":"Worked on the planning, design and realization of Enterprise Architecture in an Advisory project for a major player of the Banking market (Credit NPLs area)."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Deloitte Consulting",
+        "title":"Salesforce Consultant",
+        "years":"May 2018 - Aprile 2019",
+        "description":"Developed new feature for the CRM (Sales) of one of the biggest insurance company using Salesforce platform."
+      },
+      {
+        "company":"Accenture Interactive (former Accenture Digital)",
+        "title":"Digital Technology Developer Senior Analyst",
+        "years":"May 2017 - May 2018",
+        "description":"Developed analytics applications with a proprietary framework called AIP Design Studio, an Analytics as a Service solution for major players in banking and energy market."
+      },
+      {
+        "company":"Pay Reply S.r.l.",
+        "title":"Software Engineer",
+        "years":"May 2016 - May 2017",
+        "description":"Developed REST/SOAP services for a mobile payment platform."
+      },
+      {
+        "company":"Errevi System",
+        "title":"C# Developer",
+        "years":"May 2013 - September 2013",
+        "description":"Designed and developed a software that analyze the Foreign Exchange Market (FOREX) and according to the strategies decides how to trade."
       }
     ],
     "skills":[
