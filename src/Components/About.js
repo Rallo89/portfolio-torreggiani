@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Slide from "react-reveal";
+import Fade from "react-reveal";
 
 class About extends Component {
   render() {
@@ -15,6 +16,7 @@ class About extends Component {
     const phone = this.props.data.phone;
     const email = this.props.data.email;
     const resumeDownload = this.props.data.resumedownload;
+    const curriculumvitae = this.props.data.curriculumvitae;
 
     return (
       <section id="about">
@@ -45,11 +47,13 @@ class About extends Component {
                   </p>
                 </div>
                 <div className="columns download">
-                  <p>
-                    <a href={resumeDownload} className="button">
-                      <i className="fa fa-download"></i>Download Resume
-                    </a>
-                  </p>
+                  <Fade bottom duration={2000}>
+                    <ul className="social">
+                      <a href={curriculumvitae} className="button btn project-btn">
+                        <i className="fa fa-download"></i>Download Resume
+                      </a>
+                    </ul>
+                  </Fade>
                 </div>
               </div>
             </div>

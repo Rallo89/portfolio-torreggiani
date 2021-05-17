@@ -47,18 +47,18 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"Università degli Studi di Modena e Reggio Emilia",
+        "school":"Università degli Studi di Modena e Reggio Emiliaa",
         "degree":"Master's degree in Computer Engineering",
         "graduated":"April 2016",
         "thesis": "Distributed architecture for scalable management of unstructured time-indexed data",
-        "scope": "The thesis project required the execution of a project work lasting 6 months and 720 hours. Subject: The aim of the thesis's project is the creation of a distrubted architecture that can manage data in a scalable way and index them with temporal informations."
+        "subject": "The aim of the thesis's project is the creation of a distrubted architecture that can manage data in a scalable way and index them with temporal informations. The thesis project required the execution of a project work lasting 6 months and 720 hours."
       },
       {
         "school":"Università degli Studi di Modena e Reggio Emilia",
         "degree":"Bachelor's degree in Computer Engineering",
         "graduated":"April 2013",
         "thesis": "Kelindo – Unsupervised Music Tagger and Organizer",
-        "scope": "The thesis project required the execution of a project work lasting 4 months. Subject: The aim of the thesis's project is the development of an application that can organize a disordered music library."
+        "subject": "The aim of the thesis's project is the development of an application that can organize a disordered music library. The thesis project required the execution of a project work lasting 4 months."
       }
     ],
     "work":[
