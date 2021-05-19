@@ -65,6 +65,8 @@ class Skills extends Component {
       );
     });
 
+    //ToDo: certificazioni
+
 		return (
       <section id="skills">
 			  <Carousel prevLabel="" nextLabel="">
