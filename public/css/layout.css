@@ -280,6 +280,22 @@ ul#nav li.current a { color: #fe6928; }
 /*	Skill Bars
 /*----------------------------------------------*/
 
+#skills {
+   background: #f3f1e4;
+   padding-top: 90px;
+   padding-bottom: 45px;
+   overflow: hidden;
+}
+#skills h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#skills h1 span {
+   border-bottom: 3px solid #0762f9;
+   padding-bottom: 6px;
+}
+
 .bars {
 	width: 95%;
 	float: left;
